@@ -1,0 +1,58 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #4C3B57;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+.card {
+  background-color: #F3E5D5;
+  color: #333;
+  border-radius: 2rem;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+.progress-container {
+  background-color: #ddd;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+.progress-bar {
+  height: 10px;
+  background-color: #22C55E;
+  width: 0;
+  transition: width 0.5s ease;
+}
+.input-id, .btn-submit {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  margin-top: 1rem;
+}
+.input-id {
+  border: 1px solid #ccc;
+}
+.btn-submit {
+  background-color: #FBBF24;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+}
+table {
+  width: 100%;
+  margin-top: 2rem;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: center;
+}
